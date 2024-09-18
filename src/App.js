@@ -80,7 +80,7 @@ function App() {
   return (
     <Box bg={"red.50"}>
       {user ? (
-        <Container h={"100vh"} bg={"gray"}>
+        <Container h={"100vh"} bg={"white"}>
           <VStack h="full" paddingY={"4"}>
             <Button onClick={logoutHandler} colorScheme={"red"} w={"full"}>
               Logout
